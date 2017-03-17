@@ -17,9 +17,19 @@
 
 .menu > li {
   display: inline;
+  background-color: red;
 }
 
 .menu > li + li:before {
   content: "|";
   padding-right: 0.3em;
+}
+.header-top-bar {
+
+}
+.headerLogo{
+
+}
+.clearfix{
+
 }
