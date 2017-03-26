@@ -1,9 +1,10 @@
+/**
+ * Created by sathisu on 3/23/2017.
+ */
 define([
-  './view1-bootstrap'
+    'angular',
+    './view1-bootstrap'
 
 ],function(module){
-  module.controller('view1Ctrl',function($scope,$state,$rootScope,$http,$uibModal){
-
-
-  });
+    return angular.module(module,[]);
 });

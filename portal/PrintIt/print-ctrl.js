@@ -3,10 +3,10 @@
  */
 define([
     './print'
-],function(app){
-    app.controller('printCtrl',function($scope,$rootScope,$state,$http,$window){
+],function(module){
+    module.controller('printCtrl',function($scope,$rootScope,$state,$http,$window){
         $rootScope.appName = "PrintViz";
-
+console.log("this is root controller");
 
     });
 });

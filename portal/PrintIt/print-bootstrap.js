@@ -4,11 +4,10 @@
 define([
     'module',
     'angular',
-    './view1/view1-bootstrap',
-    './view2/view2-bootstrap'
-
+    './view1/view1-bootstrap'
+    //'./view2/view2-bootstrap'
 ],function(module,angular){
-    return angular.module('print-bootstrap', ['print.view2-bootstrap','print.view1-bootstrap']);
+    return angular.module('print-bootstrap', ['print.view1-bootstrap']);
 
 });
 

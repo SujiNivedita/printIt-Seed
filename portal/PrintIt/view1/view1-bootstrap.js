@@ -16,7 +16,7 @@ define([
                     abstract:false,
                     views:{
                         'site-content@': {
-                            templateUrl:'PrintIt/view1/view1.htmll',
+                            templateUrl:'PrintIt/view1/view1.html',
                             controller:'view1Ctrl'
                         }
                     }

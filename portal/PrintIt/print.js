@@ -1,17 +1,18 @@
 /**
  * Created by sathisu on 3/17/2017.
  */
-//main app file with main bootrap route config
+//main app file with main bootstrap route config
 define([
         'angular',
         'ui-dynamic-router',
         './print-bootstrap',
         'ui-bootstrap',
-        'angular-cookies'
+        'angular-cookies',
         //'./dashboard/dashboard',
         //'./dashboard/dashboard-ctrl',
         //'ui-components/ui-component',
-
+        './view1/view1',
+       './view1/view1-ctrl'
     ],
     function(angular){
         return angular.module('print',[
@@ -23,7 +24,7 @@ define([
                 //'ui-components'
             ])
             .config(function ($stateProvider, $urlRouterProvider){
-                $urlRouterProvider.otherwise('/print    ');
+                $urlRouterProvider.otherwise('print');
 
                 $stateProvider
                     .state('print', {
@@ -33,10 +34,6 @@ define([
                             'header': {
                                 templateUrl: 'PrintIt/header.html',
                                 controller: 'headerCtrl'
-                            },
-                            'sidebar': {
-                                templateUrl: 'PrintIt/sidebar.html',
-                                controller: 'sidebarCtrl'
                             },
                             'footer': {
                                 templateUrl: 'PrintIt/footer.html',
@@ -49,6 +46,23 @@ define([
                             }
                         }
                     });
+                $stateProvider
+                    .state('print.home', {
+                        url:'/home',
+                        abstract:false,
+                        views:{
+                            'site-content@': {
+                                templateUrl:'PrintIt/view1/view1.html',
+                                controller:'view1Ctrl'
+                            }
+                        },
+                        resolve:{
+                            auth:function($q,$window){
+
+                            }
+                        }
+                    });
+
             })
             .run([
                 '$rootScope',
@@ -57,7 +71,7 @@ define([
                     $rootScope.$state = $state;
 
                     $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams) {
-
+                        console.log($state.name);
                     });
 
 

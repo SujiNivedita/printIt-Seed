@@ -25,7 +25,20 @@
   padding-right: 0.3em;
 }
 .header-top-bar {
-
+  text-align: right;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 0px;
+  display: block;
+  float: left;
+  width: 100%; }
+.header-top-bar li {
+  display: inline-block;
+  list-style-type: none;
+  color: #000000; }
+.header-top-bar li a {
+  color: #000000;
+  text-decoration: none; }
 }
 .headerLogo{
 

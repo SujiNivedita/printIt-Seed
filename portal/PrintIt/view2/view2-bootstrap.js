@@ -9,7 +9,6 @@ define([
         return angular.module('print.view2-bootstrap',['ui.bootstrap'])
             .config(function($stateProvider,$urlRouterProvider){
 
-                //$urlRouterProvider.otherwise('episode/home','episode/home/dashboard');
 
                 $stateProvider.state('print.details1',{
                     url:'/details2',
