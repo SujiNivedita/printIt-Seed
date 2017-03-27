@@ -1,7 +1,7 @@
 /**
  * Created by sathisu on 3/24/2017.
  */
-var first = require('./models/nerd');
+var first = require('./models/first');
 
 module.exports = function(app) {
 
@@ -10,9 +10,9 @@ module.exports = function(app) {
     // authentication routes
 
     // sample api route
-    app.get('/api/nerds', function (req, res) {
+    app.get('/api/first', function (req, res) {
         // use mongoose to get all nerds in the database
-        Nerd.find(function (err, nerds) {
+        first.find(function (err, nerds) {
 
             // if there is an error retrieving, send the error.
             // nothing after res.send(err) will execute
@@ -28,7 +28,7 @@ module.exports = function(app) {
 
     // frontend routes =========================================================
     // route to handle all angular requests
-    app.get('*', function (req, res) {
-        res.sendfile('./portal/index.html'); // load our public/index.html file
+    app.get('/', function (req, res) {
+        res.sendFile('/portal/index.html',{ root: __dirname }); // load our public/index.html file
     });
 };

@@ -23,7 +23,10 @@
     "protractor": "^4.0.9",
     "express": "^4.13.4",
     "express-http-proxy": "^0.6.0",
-    "minimist": "~1.2.0"
+    "minimist": "~1.2.0",
+    "method-override": "latest",
+    "body-parser": "latest",
+    "mongoose": "latest"
   },
   "scripts": {
     "postinstall": "bower install",

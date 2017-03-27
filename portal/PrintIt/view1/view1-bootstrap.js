@@ -3,10 +3,12 @@
  */
 define([
         'angular',
-        './view1'
+        './view1',
+       './repos/repo',
+        './ repos/first-repo'
     ],
     function(angular){
-        return angular.module('print.view1-bootstrap',['ui.bootstrap'])
+        return angular.module('print.view1-bootstrap',['ui.bootstrap','print.view1.repos'])
             .config(function($stateProvider,$urlRouterProvider){
 
                 //$urlRouterProvider.otherwise('episode/home','episode/home/dashboard');
