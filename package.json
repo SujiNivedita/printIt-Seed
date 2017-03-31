@@ -1,52 +1,51 @@
 {
-  "name": "angular-seed",
-  "private": true,
-  "version": "0.0.0",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
-  "license": "MIT",
-  "devDependencies": {
-    "bower": "^1.7.7",
-    "http-server": "^0.9.0",
+  "name": "printviz",
+  "version": "1.0.0",
+  "description": "A sample app for remote printing ",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-http-proxy": "^0.6.0",
     "grunt": "^0.4.5",
-    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-clean": "^0.5.0",
     "grunt-contrib-compass": "^0.7.2",
-    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-copy": "^0.5.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-shell": "^0.7.0",
-    "jasmine-core": "^2.4.1",
+    "jasmine-core": "^2.5.2",
+    "http-server": "^0.9.0",
     "karma": "^0.13.22",
-    "karma-chrome-launcher": "^0.2.3",
     "karma-firefox-launcher": "^0.1.7",
     "karma-jasmine": "^0.3.8",
-    "karma-junit-reporter": "^0.4.1",
-    "protractor": "^4.0.9",
-    "express": "^4.13.4",
-    "express-http-proxy": "^0.6.0",
-    "minimist": "~1.2.0",
-    "method-override": "latest",
-    "body-parser": "latest",
-    "mongoose": "latest"
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-junit-reporter": "^0.4.2",
+    "method-override": "^2.3.8",
+    "minimist": "^1.2.0",
+    "nodemon": "^1.11.0",
+    "mongoose": "^4.9.2",
+    "protractor": "^4.0.14",
+    "raw-body": "^2.2.0",
+    "type-is": "^1.6.14"
   },
+  "devDependencies": {},
   "scripts": {
-    "postinstall": "bower install",
-
-    "update-deps": "npm update",
-    "postupdate-deps": "bower update",
-
-    "prestart": "npm install",
-    "start": "http-server -a localhost -p 8000 -c-1 ./app",
-
-    "pretest": "npm install",
-    "test": "karma start karma.conf.js",
-    "test-single-run": "karma start karma.conf.js --single-run",
-
-    "preupdate-webdriver": "npm install",
-    "update-webdriver": "webdriver-manager update",
-
-    "preprotractor": "npm run update-webdriver",
-    "protractor": "protractor e2e-tests/protractor.conf.js",
-
-    "update-index-async": "node -e \"var fs=require('fs'),indexFile='app/index-async.html',loaderFile='app/bower_components/angular-loader/angular-loader.min.js',loaderText=fs.readFileSync(loaderFile,'utf-8').split(/sourceMappingURL=angular-loader.min.js.map/).join('sourceMappingURL=bower_components/angular-loader/angular-loader.min.js.map'),indexText=fs.readFileSync(indexFile,'utf-8').split(/\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/).join('//@@NG_LOADER_START@@\\n'+loaderText+'    //@@NG_LOADER_END@@');fs.writeFileSync(indexFile,indexText);\""
-  }
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SujiNivedita/printIt-Seed.git"
+  },
+  "keywords": [
+    "print",
+    "mean",
+    "firstcut"
+  ],
+  "author": "Suji Nivedita Sathiyamurthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SujiNivedita/printIt-Seed/issues"
+  },
+  "homepage": "https://github.com/SujiNivedita/printIt-Seed#readme"
 }
