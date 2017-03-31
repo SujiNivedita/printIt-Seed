@@ -18,8 +18,11 @@ module.exports = function(app) {
   //User Routes
    app.route('/user')
     .get(users.list_all_users)
+
     .post(users.create_a_user);
 
+    app.route('/user/login/:username')
+        .get(users.login_user);
 
   app.route('/user/:userId')
     .get(users.read_a_user)

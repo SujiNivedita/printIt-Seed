@@ -12,7 +12,8 @@ define([
     'PrintIt/print',
     'PrintIt/print-ctrl',
     'PrintIt/header-ctrl',
-    'PrintIt/footer-ctrl'
+    'PrintIt/footer-ctrl',
+    'PrintIt/login-ctrl'
     //'episode/sidebar',
     //'config'
 ], function (require, angular) {

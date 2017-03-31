@@ -24,7 +24,7 @@ define([
                 //'ui-components'
             ])
             .config(function ($stateProvider, $urlRouterProvider){
-                $urlRouterProvider.otherwise('print');
+                $urlRouterProvider.otherwise('print.login');
 
                 $stateProvider
                     .state('print', {
@@ -47,13 +47,13 @@ define([
                         }
                     });
                 $stateProvider
-                    .state('print.home', {
+                    .state('print.login', {
                         url:'/home',
                         abstract:false,
                         views:{
                             'site-content@': {
-                                templateUrl:'PrintIt/view1/view1.html',
-                                controller:'view1Ctrl'
+                                templateUrl:'PrintIt/user/login.html',
+                                controller:'loginCtrl'
                             }
                         },
                         resolve:{
