@@ -14,6 +14,7 @@ require.config({
         'angular-ui-router': 'bower_components/angular-ui-router/release/angular-ui-router',
         'angular-cookies': 'bower_components/angular-cookies/angular-cookies',
         'ui-bootstrap': 'bower_components/angular-bootstrap/ui-bootstrap-tpls',
+        'ng-upload': 'bower_components/angular-file-upload/dist/angular-file-upload',
         'lodash': 'bower_components/lodash/dist/lodash'
         //'bootstrap': 'bower_components/bootstarp/dist/lodash'
     },
@@ -25,6 +26,7 @@ require.config({
         'underscore.string': ['lodash'],
         'ui-bootstrap': ['angular'],
         'angular-cookies':['angular'],
+        'ng-upload':['angular'],
         'angular': {
             exports: 'angular',
             init: function() {
@@ -43,6 +45,7 @@ require.config({
         'angular-ui-router',
         'angular-cookies',
         'ui-bootstrap',
+        'ng-upload',
         'ui-dynamic-router'
         ]
 });

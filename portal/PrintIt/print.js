@@ -12,19 +12,22 @@ define([
         //'./dashboard/dashboard-ctrl',
         //'ui-components/ui-component',
         './view1/view1',
-       './view1/view1-ctrl'
+       './view1/view1-ctrl',
+       './services/services',
+       './services/userService'
     ],
     function(angular){
         return angular.module('print',[
                 'ui.router',
                 'ui.dynamic.router',
                 'print-bootstrap',
-                'ui.bootstrap'
+                'ui.bootstrap',
+            'print.repos'
                 //'episode.popup',
                 //'ui-components'
             ])
             .config(function ($stateProvider, $urlRouterProvider){
-                $urlRouterProvider.otherwise('print.login');
+                $urlRouterProvider.otherwise('print/login');
 
                 $stateProvider
                     .state('print', {
@@ -48,11 +51,11 @@ define([
                     });
                 $stateProvider
                     .state('print.login', {
-                        url:'/home',
+                        url:'/login',
                         abstract:false,
                         views:{
                             'site-content@': {
-                                templateUrl:'PrintIt/user/login.html',
+                                templateUrl:'PrintIt/login.html',
                                 controller:'loginCtrl'
                             }
                         },
@@ -71,7 +74,8 @@ define([
                     $rootScope.$state = $state;
 
                     $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams) {
-                        console.log($state.name);
+                        console.log($state.current.name);
+                        console.log(toState.name);
                     });
 
 

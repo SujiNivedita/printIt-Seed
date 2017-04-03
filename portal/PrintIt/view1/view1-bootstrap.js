@@ -5,7 +5,7 @@ define([
         'angular',
         './view1',
        './repos/repo',
-        './ repos/first-repo'
+        './repos/first-repo'
     ],
     function(angular){
         return angular.module('print.view1-bootstrap',['ui.bootstrap','print.view1.repos'])

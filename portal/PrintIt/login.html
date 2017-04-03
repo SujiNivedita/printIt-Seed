@@ -1,7 +1,13 @@
-<input type="text" ng-model="name">
-<input type="password" ng-model="password">
-<input type="email" ng-model="email">
-<input type="text" ng-model="phone">
-<input type="text" ng-model="geolocation">
+Name<input type="text" ng-model="credentials.name"><br/>
+password<input type="password" ng-model="credentials.password"><br/>
+
 <input type="submit" ng-click="login()" value="login"/>
+<div ng-if="!hide">
+Name<input type="text" ng-model="userDetails.name"><br/>
+password<input type="password" ng-model="userDetails.password"><br/>
+email<input type="email" ng-model="userDetails.email"><br/>
+phone<input type="text" ng-model="userDetails.phone"><br/>
+location<input type="text" ng-model="userDetails. geolocation"><br/>
+
 <input type="submit" ng-click="register()" value="register"/>
+</div>
