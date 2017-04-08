@@ -6,5 +6,5 @@ define([
     './view1-bootstrap'
 
 ],function(module){
-    return angular.module(module,[]);
+    return angular.module(module,['ngFileUpload']);
 });

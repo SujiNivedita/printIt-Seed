@@ -1,5 +1,9 @@
 <p>Yay! You're now logged in :) </p>
-<form>
-    <input type=”file” nv-file-select uploader=”uploader” options=”uploadOptions” />
-    <button ng-click="submit()">Submit</button>
-</form>
+<script src="/node_modules/ng-file-upload/dist/ng-file-upload-all.min.js"></script>
+<div >
+    <h1>This is my MEAN stack file upload trial!</h1>
+    <form action="http://localhost:3000/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="filefield">
+        <input type="submit">
+    </form>
+</div>

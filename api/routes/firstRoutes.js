@@ -2,6 +2,7 @@
 module.exports = function(app) {
   var todoList = require('../controllers/firstController');
   var users = require('../controllers/userController');
+  var upload = require('../controllers/fileController');
 
 
   // todoList Routes
@@ -29,4 +30,11 @@ module.exports = function(app) {
     .get(users.read_a_user)
     .put(users.update_a_user)
     .delete(users.delete_a_user);
+
+    app.route('/upload/:filename')
+        .get(upload.read);
+
+
+    app.route('/upload')
+        .post(upload.create);
 };
