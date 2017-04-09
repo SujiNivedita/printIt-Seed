@@ -32,9 +32,13 @@ module.exports = function(app) {
     .delete(users.delete_a_user);
 
     app.route('/upload/:filename')
+
         .get(upload.read);
 
+app.route('/getFiles').get(upload.read_all);
 
-    app.route('/upload')
+app.route('/myFiles/:id').get(upload.read_my_files);
+
+    app.route('/upload/:id')
         .post(upload.create);
 };

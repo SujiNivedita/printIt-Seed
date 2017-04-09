@@ -9,13 +9,17 @@ Grid.mongo = mongoose.mongo;
 var gfs = new Grid(mongoose.connection.db);
 
 exports.create = function(req, res) {
-console.log(req.files);
+console.log(req.params.id);
     var part = req.files.filefield;
 
     var writeStream = gfs.createWriteStream({
         filename: part.name,
+        userId:req.params.id,
         mode: 'w',
-        content_type:part.mimetype
+        content_type:part.mimetype,
+        metadata:{
+          userId:req.params.id  
+        }
     });
 
 
@@ -60,6 +64,38 @@ exports.read = function(req, res) {
             console.log('An error occurred!', err);
             throw err;
         });
+    });
+
+};
+
+exports.read_all = function(req, res) {
+
+    gfs.files.find({}).toArray(function (err, files) {
+
+        if(files.length===0){
+            return res.status(400).send({
+                message: 'NO Files Uplaoded'
+            });
+        }
+        if (err)
+            res.send(err);
+        res.json(files);
+    });
+
+};
+
+exports.read_my_files = function(req, res) {
+
+    gfs.files.find({'metadata.userId': req.params.id}).toArray(function (err, files) {
+
+        if(files.length===0){
+            return res.status(400).send({
+                message: 'No Files Uploaded Yet'
+            });
+        }
+        if (err)
+            res.send(err);
+        res.json(files);
     });
 
 };

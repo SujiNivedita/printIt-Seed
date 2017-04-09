@@ -18,6 +18,11 @@ define([
         this.delete=function(id){
             return $http.delete('/api/first'+id);
         }
-
+        this.upload=function(file,id){
+            return $http.post('/upload',file,{
+            transformRequest: angular.identity,
+            headers: {'Content-Type': undefined}
+            });
+        }
         });
 });

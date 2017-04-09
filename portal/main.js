@@ -8,9 +8,6 @@ require.config({
         'domReady': 'bower_components/requirejs-domready/domReady',
         'angular': 'bower_components/angular/angular',
         'angular-loader': 'bower_components/angular-loader/angular-loader',
-        //i18n: 'bower_components/require/i18n',
-        //text: 'bower_components/require/text',
-        'ui-dynamic-router': 'bower_components/angular/ui-dynamic-router',
         'angular-ui-router': 'bower_components/angular-ui-router/release/angular-ui-router',
         'angular-cookies': 'bower_components/angular-cookies/angular-cookies',
         'ui-bootstrap': 'bower_components/angular-bootstrap/ui-bootstrap-tpls',
@@ -21,7 +18,6 @@ require.config({
 
     // angular does not support AMD out of the box, put it in a shim
     shim: {
-        'ui-dynamic-router': ['angular-ui-router'],
         'angular-ui-router': ['angular'],
         'underscore.string': ['lodash'],
         'ui-bootstrap': ['angular'],
@@ -45,7 +41,6 @@ require.config({
         'angular-ui-router',
         'angular-cookies',
         'ui-bootstrap',
-        'ng-upload',
-        'ui-dynamic-router'
+        'ng-upload'
         ]
 });

@@ -4,7 +4,6 @@
 //main app file with main bootstrap route config
 define([
         'angular',
-        'ui-dynamic-router',
         './print-bootstrap',
         'ui-bootstrap',
         'angular-cookies',
@@ -19,7 +18,6 @@ define([
     function(angular){
         return angular.module('print',[
                 'ui.router',
-                'ui.dynamic.router',
                 'print-bootstrap',
                 'ui.bootstrap',
             'print.repos'
