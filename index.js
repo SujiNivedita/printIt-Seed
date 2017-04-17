@@ -7,7 +7,7 @@ var express = require('express'),
   methodOverride = require('method-override');
 
 //mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/suji');
+mongoose.connect('mongodb://127.0.0.1/suji');
 require('./api/models/firstModel');
 require("./api/models/userModel");
 require("./api/models/fileModel");

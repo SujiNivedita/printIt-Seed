@@ -1,0 +1,236 @@
+<div id="gallery" class="portfolio">
+	<div class="container">
+		<div class="agileits-title">
+		  <h3>MY Documents</h3>
+		  <p>Select files to print</p>
+		</div> 
+		<div class="sap_tabs">			
+			<div id="horizontalTab">
+				<ul class="resp-tabs-list">
+					<a href="#contact"><li class="resp-tab-item"><span>Print</span></li></a>
+					<li class="resp-tab-item"><span>Upload</span></li>					
+				</ul>	
+				<div class="clearfix"> </div>	
+				<div class="">
+					<div class="tab-1s">
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/files.png' data-big-src='images/files.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-6.png' data-big-src='images/ptvz-6.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-1 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ptvz-10.jpg' data-big-src='images/ptvz-10.png' class="img-responsive" alt=" "/>
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>				
+						<div class="clearfix"> </div>
+					</div>		
+					<!--<div class="tab-1 resp-tab-content">
+						<div class="col-md-4 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ga1.jpg' data-big-src='images/ga1.jpg' class="img-responsive" alt=" " />
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ga10.jpg' data-big-src='images/ga10.jpg' class="img-responsive" alt=" " />
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ga11.jpg' data-big-src='images/ga11.jpg' class="img-responsive" alt=" " />
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="tab-1 resp-tab-content">
+						<div class="col-md-3 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ga5.jpg' data-big-src='images/ga5.jpg' class="img-responsive" alt=" " />
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ga7.jpg' data-big-src='images/ga7.jpg' class="img-responsive" alt=" " />
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ga8.jpg' data-big-src='images/ga8.jpg' class="img-responsive" alt=" " />
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ga12.jpg' data-big-src='images/ga12.jpg' class="img-responsive" alt=" " />
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="tab-1 resp-tab-content">
+						<div class="col-md-4 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ga2.jpg' data-big-src='images/ga2.jpg' class="img-responsive" alt=" " />
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ga4.jpg' data-big-src='images/ga4.jpg' class="img-responsive" alt=" " />
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='images/ga13.jpg' data-big-src='images/ga13.jpg' class="img-responsive" alt=" " />
+								<p  style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>-->
+				</div>	
+				<div class="clearfix"> </div>															
+			</div>
+		</div>
+	</div>
+</div> 

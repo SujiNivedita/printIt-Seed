@@ -1,0 +1,83 @@
+<div id="gallery" class="portfolio">
+	<div class="container">
+		<div class="agileits-title">
+		  <h3>MY Documents</h3>
+		  <p>Select files to print</p>
+		</div> 
+		<div class="sap_tabs">			
+			<div id="horizontalTab">
+				<ul class="resp-tabs-list">
+					<a href="#" data-toggle="modal" data-target="#print">
+					<li class="resp-tab-item"><span>Print</span></li></a>
+					<a href="#" data-toggle="modal" data-target="#upload">
+					<li class="resp-tab-item"><span>Upload</span></li>	</a>				
+				</ul>	
+				<div class="clearfix"> </div>	
+				<div class="">
+					<div class="tab-1s">
+						<div class="col-md-1 portfolio-grids" ng-repeat="myfile in fileList">
+							<div class="gallery-grid">
+								<img src='images/files.png' data-big-src='images/files.png' class="img-responsive" alt=" "/>
+								<p  >{{myfile.filename}}</p>
+							</div>
+						</div>				
+					
+						</div>				
+						<div class="clearfix"> </div>
+					</div>		
+				</div>	
+				<div class="clearfix"> </div>															
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="upload" tabindex="-1" role="dialog" >
+    <div class="modal-dialog">
+    <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <img src="images/cloud.jpg" alt="uplaod" height="150px" weight="150px"/>
+            <h4>Upload Your Files</h4>
+            </div>
+            <div class="modal-body" ng-if="!uploaded">
+             <form>
+              	<!-- <div class="container"> -->
+    				<!-- <div class="row"> -->
+        				<!-- <div class="col-xs-6"> -->
+            				<input type="file" file-model="filefield"/>
+        				<!-- </div> -->
+        				<!-- <div class="col-xs-6 col-lg-2"> -->
+        					<input type="submit" class="btn btn-primary pull-right"  ng-click="submit()" value="Upload">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+        				<!-- </div> -->
+   					 <!-- </div> -->
+				<!-- </div>        		 -->
+    		  </form>    
+    		 <div ng-if="uploaded" class="modal-body">
+  				<p> File Upload Was Successfull!</p>
+  				<div class="pull-right">
+  					<input class="btn btn-success pull-right" ng-click="uploaded = false" value="Upload another File">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+  					<input class="btn btn-danger pull-right" ng-click="submit()" value="Close" data-dismiss="modal">​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+  				</div>
+  			</div>  
+        </div>
+      </div>
+    </div>    
+</div>
+
+<div class="modal fade" id="print" tabindex="-1" role="dialog" >
+    <div class="modal-dialog">
+    <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4>Send to print</h4>
+            </div>
+            <div class="modal-body">
+              <img src="images/print.png" alt="print" />
+        </div>
+      </div>            
+    </div>
+  </div>
+
+ 

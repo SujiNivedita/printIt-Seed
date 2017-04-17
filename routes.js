@@ -1,8 +1,6 @@
 /**
  * Created by sathisu on 4/3/2017.
  */
-//var first = require('./models/first');
-
 module.exports = function(app) {
 
     // server routes ===========================================================
