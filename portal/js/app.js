@@ -38,25 +38,27 @@ angular
   })
   .controller("contenCtrl", function($scope,$http,$state) {
     console.log("i am view1 AND IM ACTIVE");
-  $scope.uploaded=false;
+  $scope.success=false;
     getMyFiles();
     function getMyFiles(){
-      $http.get('/myFiles/58e29b3d849acd2c5432abfe').then(function(data){
+      $http.get('/myFiles/58f5a937527d24e5dd5ea61e').then(function(data){
         console.log(data);
         $scope.fileList=data.data;
       })
     }
     $scope.submit = function () {
-      $scope.uploaded=false;
+      $scope.success=false;
       console.log($scope.filefield);
       var fd = new FormData();
         fd.append('filefield', $scope.filefield);
-      $http.post('/upload/58e29b3d849acd2c5432abfe',fd,{
+      $http.post('/upload/58f5a937527d24e5dd5ea61e',fd,{
             transformRequest: angular.identity,
             headers: {'Content-Type': undefined}
             }).then(function(data){
                 if(data.data.message=="Success"){
-                  $scope.uploaded=true;
+                    $scope.filefield='';
+                    angular.element("input[type='file']").val(null);
+                  $scope.success=true;
                   getMyFiles();
                 }
             });
